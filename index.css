@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:rgb(5, 41, 73);
+    color:white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+form{
+    width: 320px;
+    margin: auto;
+    border: 1px solid rgb(240, 234, 234);
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+label{
+    display: block;
+    padding: 0.15rem;
+    font-weight: bold;
+}
+
+.input-group{
+    position: relative;
+    
+}
+
+.input-group i{
+    position: absolute;
+    padding: 10px  ;
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.55rem;
+    background-color:rgb(5, 41, 73);
+    color: white;
+    font-size: large;
+    font: bold;
+    padding: 1rem 1rem 1rem 2rem;
+     
+}
+
+  input:focus {
+    outline: none;
+    padding: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
+  }
+
+   
+
+  select{
+    margin-top: 1rem;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    font-size: medium;
+    padding: 0.2rem;
+    font-weight: 400;
+    background-color: rgb(33, 52, 68) ;
+    color: white;
+    border-radius: 0.5rem;
+
+    
+  }
+
+  button{
+    display: block;
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+  }
+
+
+  textarea{
+    margin-top: 1rem;
+    background-color:rgb(5, 41, 73) ;
+    color: white;
+    border-radius: 0.5rem ;
+    width: 100%;
+    padding: 0.35rem;
+  }
+
+  textarea:focus{
+    color: white;
+    outline: none;
+  }
